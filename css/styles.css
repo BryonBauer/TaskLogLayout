@@ -30,6 +30,10 @@ li a:hover {
     background-color: #333;
 }
 
+#menuIcon{
+    
+}
+
 #title {
     font-family: 'Oswald';
     font-size: 2em;
@@ -81,35 +85,44 @@ li a:hover {
     margin: 1%;
 }
 
+.table{
+    display: table;
+}
+
+.table-body{
+    display: table-row-group;
+}
+
+
+.row{
+    display: table-row;
+
+}
+
+.table-cell{
+    display: table-cell;
+    padding: 1%;
+}
+
 .card-container {
-    display: inline-flex;
-    padding: 2%;
-    margin: 1%;
+    display: inline-block;
     border: 1px solid red;
-    height: auto;
+    height: 100%;
 }
 
 .card {
-    margin: 1%;
-    display: inline-block;
-    padding: 2%;
-    height: 20%;
-    width: 20%;
+    padding: 5%;
+    height: 100%;
+    width: 100%;
     background-color: #ffff88;
 }
 
 .card-pink {
-    margin: 1%;
-    display: inline-block;
-    padding: 2%;
-    height: 20%;
-    width: 20%;
     background-color: #ff7eb9;
 }
 
 .card-input-group {
     width: 27%;
-    margin-top: -10%;
     margin-left: 85%;
     /* border: 1px solid blue; */
 }
@@ -123,7 +136,9 @@ li a:hover {
     font-size: 0.7em;
 }
 
-.card-body {}
+.project-status {
+    font-size: 0.7em;
+}
 
 .card-desc {
     font-size: 0.75em;
